@@ -1,0 +1,106 @@
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    padding:1%;
+   
+   
+}
+.navbar:hover { 
+  background-color:#ce003427 ;
+    /*background-image: url(../image/simplon.jpg);*/
+    background-size: cover;
+    height: 50vh;
+   
+   
+    }
+   
+.navbar-element{
+    color:#ce0033;
+    font-size:20px;
+}
+#logo{
+   
+    width: 100px;
+    height:100px;
+}
+/*drop-down*/
+.dropbtn {
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f977;
+    width: 160px;
+    
+  }
+  
+  .dropdown-content a {
+    color: #ce0033;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  /*after navbar*/
+  .navbar:hover .afternavbar{
+    display:block;
+}
+.afternavbar{
+    display:none;
+}
+.afternavbar h1{
+    color:white;
+}
+.afternavbar button{
+    color:white;
+    background-color:#ce0033;
+    border: none;
+    border-radius: 10px;
+    width:180px;
+    height:40px;
+}
+
+@media (max-width: 767px) {
+   
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   height:400px;
+   
+  }
+  
+  #logo{
+      display:none;
+  }
+  .dropdown-content{
+      margin-left:285px;
+  }
+  .navbar:hover { 
+    background-image: url(../image/simplon.jpg);
+    background-size: cover;
+    height: 82vh;
+   
+   
+    }
+}
