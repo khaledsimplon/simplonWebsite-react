@@ -1,0 +1,26 @@
+.cardTeam {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+.text {
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 50px;
+}
+.title {
+  color: white;
+  background-color: crimson;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.descrip {
+  margin-top: 70px;
+  background-color: rgba(8, 7, 5, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
