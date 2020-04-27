@@ -1,0 +1,14 @@
+.iframe{
+    width: 800px;
+    height: 300px;
+}
+.section{
+    height:400px;
+}
+@media (max-width:600px){
+    .iframe{
+        width: 400px;
+        height: 200px;
+
+    }
+}

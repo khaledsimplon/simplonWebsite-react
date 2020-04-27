@@ -1,0 +1,11 @@
+.LOGO{
+    width:30px;
+}
+.table{
+    display:flex;
+    border: 1px solid #dee2e6;
+    justify-content: space-around;
+}
+.col{
+    border: 1px solid #dee2e6;
+}
