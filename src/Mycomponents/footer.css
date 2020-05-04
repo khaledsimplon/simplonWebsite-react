@@ -1,0 +1,34 @@
+.icone{
+    width:60px;
+    height:60px;
+}
+
+.footer{
+    display: flex;
+    background-color: #ce003449;
+    height: 200px;
+    justify-content: space-around;
+    padding:10px;
+}
+#logo-chart{
+    height: 100px;
+    width: 100px;
+    padding:10px;
+}
+.paragraphe{
+    width:500px;
+    text-align: justify;
+}
+@media(max-width:600px){
+    .paragraphe{
+        width:100%;
+    
+}
+}
+
+.all-icones{
+    padding-top: 50px;
+    border-left: 6px solid rgb(78, 80, 78);
+    height: 150px;
+    padding-left:30px;
+}

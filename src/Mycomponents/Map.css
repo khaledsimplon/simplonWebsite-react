@@ -1,0 +1,11 @@
+.Map{
+    
+    display: block;
+}
+
+@media  (max-width: 600px){
+
+    .Map{
+
+       display:none;
+    }}
