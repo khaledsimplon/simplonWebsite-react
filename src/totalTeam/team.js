@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "../card /card";
+import Card from "./card";
 import "./team.css";
-import Tof4 from "../tof4.jpg";
+import Tof4 from "./images/tof4.jpg";
 
 function Team(props) {
   return (
     <div>
-      <img src={Tof4} />
+      <img src={Tof4} alt="descrip" />
       <div className="text">
         <div className="title">
           <h1>Equipe Simplon</h1>

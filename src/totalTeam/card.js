@@ -4,7 +4,7 @@ import "./card.css";
 function Card(props) {
   return (
     <div className="card">
-      <img src={props.el.photo}></img>
+      <img src={props.el.photo} alt=" team"></img>
       <h1>{props.el.name}</h1>
       <span>
         <h3>
