@@ -1,0 +1,32 @@
+h2{
+    margin-top: 10px;
+    height: 40px;
+    color: #fff;
+    background-color: #ce0033;
+    box-shadow: 2px 2px #ce0033;
+    opacity: 100%;
+    text-align: center;
+}
+
+
+.card
+{
+    display: flex;
+    justify-content: space-around;
+}
+ @media(max-width: 600px){
+     .card{
+         display:flex;
+         flex-direction:column;
+     }
+ }
+
+.card-body{
+    width:18rem;
+}
+.logo{
+    width: 250px;
+}
+.title{
+    color:#ce0033;
+}

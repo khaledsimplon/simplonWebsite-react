@@ -1,0 +1,21 @@
+.Block{
+    display:flex;
+    justify-content: space-around;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+@media screen and(max-width:600px){
+    .Block{
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+.logo{
+    widows: 250px;
+    
+}
+@media screen and (max-width:600px){
+
+}
