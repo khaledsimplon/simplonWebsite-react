@@ -1,5 +1,5 @@
 import React from 'react'
-import Map from '../map.png'
+import Map from '../Mycomponents/image/map.png'
 import'./Map.css'
 
 const Img=()=>{

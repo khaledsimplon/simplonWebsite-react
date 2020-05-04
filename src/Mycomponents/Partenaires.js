@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from '../logo.png'
-import Orange from '../orange.png'
-import Région from '../Région_ile-de-France_(logo).svg.png'
+import Logo from '../Mycomponents/image/logo.png'
+import Orange from '../Mycomponents/image/orange.png'
+import Région from '../Mycomponents/image/Région_ile-de-France_(logo).svg.png'
 import'./Partenaires.css'
 
 const Block=()=>{

@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import Chart from'../chart.png'
+import Chart from'../Mycomponents/image/chart.png'
 
 const Footer=()=>{
     return(

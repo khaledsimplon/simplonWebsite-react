@@ -1,5 +1,5 @@
 import React from 'react'
-import pdf from '../reglement.pdf1.pdf'
+import pdf from '../Mycomponents/image/reglement.pdf1.pdf'
 import './reglement.css'
 
 
