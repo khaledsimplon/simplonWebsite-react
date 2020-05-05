@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 //array for drop down
 const accueilDrop=["Presentation Génerale","Impact","Partenaire","Reglement Intérieur"]
 const aproposDrop=["Notre mission","Notre Vision","Notre Valeur"]
+
 function Navbar() {
   return (
     
@@ -16,12 +17,12 @@ function Navbar() {
       <div class="dropdown ">
         <Link to="/aceuil" class="dropbtn navbar-element">accueil</Link>
         <div class="dropdown-content">
-  {   accueilDrop.map(el=><a href="#">{el}</a> )   }
+  {   accueilDrop.map(el=><a href="#impact">{el}</a> )   }
           
         </div>
       </div>
 
-      <Link to="equipe" class="navbar-element" href=" ">
+      <Link to="equipe" class="navbar-element" >
         Equipe
       </Link>
 
@@ -34,9 +35,9 @@ function Navbar() {
         </div>
       </div>
       
-      <a class="navbar-element" href=" ">
+      <Link to="Contact" class="navbar-element" >
         Contact
-      </a>
+      </Link>
     </div>
 
 

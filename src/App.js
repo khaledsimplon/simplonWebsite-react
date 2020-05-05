@@ -6,6 +6,7 @@ import NavbarFinal from './NAVBAR/navbarFinal'
 import Acceuil from './Mycomponents/Acceuil';
 import Equipe from './totalTeam/equipe'
 import Footer from './Mycomponents/footer';
+import Contactfinal from'./contact/contactfinal/contactfinal'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Route path='/aceuil'  component={Acceuil} />
       <Route path='/equipe'  component={Equipe} />
       <Route path='/apropos'  component={Aboutus} />
+      <Route path='/Contact' component={Contactfinal} />
       </Switch>
       </main>
       <Footer />

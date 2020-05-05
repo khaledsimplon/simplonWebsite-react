@@ -30,3 +30,11 @@ h2{
 .title{
     color:#ce0033;
 }
+.notreImpact{
+    margin-top:10%;
+    padding:1%;
+}
+.notreImpact h2{
+    height:5vh;
+    padding:2%;
+}

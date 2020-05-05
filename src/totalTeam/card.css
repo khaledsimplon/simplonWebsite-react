@@ -1,4 +1,4 @@
-.card {
+.cardTeam {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -6,11 +6,11 @@
   width: 300px;
   height: 200px%;
 }
-.card:hover {
+.cardTeam:hover {
   border: 1px solid crimson;
   box-shadow: 5px 10px 18px crimson;
 }
-.card img {
+.cardTeam img {
   margin-top: -20px;
   margin-left: 25px;
   width: 250px;
@@ -22,7 +22,7 @@
   transition-delay: 1s;
 }
 
-.card img:hover {
+.cardTeam img:hover {
   width: 100%;
 }
 .fab {

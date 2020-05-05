@@ -17,7 +17,7 @@ function Team(props) {
           voluptas nostrum quisquam eum porro a pariatur veniam.
         </h3>
       </div>
-      <section className="cardTeam">
+      <section className="cardTeamTotal">
         {props.tab.map((el) => (
           <Card el={el} />
         ))}

@@ -3,7 +3,7 @@ import "./card.css";
 
 function Card(props) {
   return (
-    <div className="card">
+    <div className="cardTeam">
       <img src={props.el.photo} alt=" team"></img>
       <h1>{props.el.name}</h1>
       <span>
