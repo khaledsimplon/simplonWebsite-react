@@ -1,0 +1,188 @@
+
+.liste{
+    font-size: x-large;
+    text-decoration: none;
+    color: #ffffff;
+  
+   
+}
+/* navbar end*/
+body{
+    background-image: url(https://i.imgur.com/NpGfnTu.jpg) ;
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+   
+    
+}
+/* contact formulaire*/
+
+.contact1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow:  2px 3px 3px #ce0033;
+  height: 500px;
+
+
+}
+.lab{
+    font-family: fantasy;
+    font-size: 30px;
+   background-color:#ce0033;
+   box-shadow:  2px 3px 3px #ce0033;
+   transition: width 2s ,height 4s;
+    color: #fff;
+   
+}
+.lab:hover{
+width:60px;
+height: 40px;
+}
+
+.tete {
+    text-align: center;
+	
+	color: #ce0033;
+   font-size: 70px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   box-shadow: 2px 2px 2px 2px #ce0033;
+   
+}
+.area
+{
+    height: 150px;
+    width: 350px;
+   
+	border: 3px solid;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: inherit;
+  background: rgba(0,0,0,.02);
+}
+.insert
+{
+    height: 60px;
+    width: 280px;
+   
+	border: 3px solid;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: inherit;
+  background: rgba(0,0,0,.02);
+}
+.insert[type="submit"] {
+	padding: .3em 1em;
+	background: #ce0033;
+	border: none;
+	color: #fff;   
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.info1{
+    
+   width: 300px;
+  background-color:transparent;
+  opacity: 100%;
+}
+.info2{
+    background-color: transparent;
+    opacity: 100%;
+    width: 300px;
+}
+.adresse{
+    display: flex;
+    
+
+    background-color:#ce003434;
+    opacity: 80%;
+    background-size: cover;
+    padding-top: 5px;
+
+    justify-content: space-around;
+    height: 400px;
+    
+
+   
+   
+}
+.map{
+padding-top: 50px;
+transition: width 2s ,height 4s;
+width:400px;
+height: 400px;
+}
+h3{
+padding-left: 10px;
+
+
+}
+.plus{
+     display: flex;
+    flex-wrap: wrap;
+   background-color: #ce003467;
+
+
+
+
+
+
+
+}
+.aa{
+    padding-top: 50px;
+    
+    width: 600px;
+    clip-path: polygon(0 0, 75% 0, 95% 55%, 50% 100%, 1% 84%, 0 23%);
+
+  
+}
+.map:hover{
+    
+    width: 700px;
+    height: 700px;
+}
+/*finbody*/
+/*footer*/
+
+  
+  .plus-liste{
+      margin-top: 10px;
+      text-align: center;
+      height: 20px;
+      text-decoration: none;
+     
+     
+      box-shadow: 2px 2px  #f0c95e;
+      opacity: 90%;
+  }
+  
+
+  
+
+  
+  
+ @media screen and (max-width: 1000px){
+     
+    .navbar{
+        height:350px;
+    }
+    .adresse{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    
+}
+.contact1{
+    height:1000px;
+}
+.google-map{
+    width: 400px;
+}
+
+
+   
+}
+
